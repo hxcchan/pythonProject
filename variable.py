@@ -7,7 +7,7 @@ is_sleep = 'ok'
 dog_exists = 'yes'
 a, b, c = 1, 2, 3
 
-if __name__=='__main__':
+if __name__ == '__main__':
     print(name)
     print(age)
     print(is_sleep)

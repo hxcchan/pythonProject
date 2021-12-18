@@ -7,13 +7,13 @@ c = 3
 d = a + b + c
 print(d)
 
-a /= b
+a /= b  # 除法运算
 print(a)
 
-a //= b
+a //= b  # 整除运算
 print(a)
 
-b **= 2
+b **= 3  # 幂运算 b^3
 print(b)
 
 print("============================")
@@ -24,6 +24,8 @@ print(k is y)  # True
 
 list_01 = [1, 2, 3]
 list_111 = [1, 2, 3]
+
+print("-----------*------------")
 print(list_01 is list_111)  # False
 
 print(id(list_01))
@@ -32,13 +34,15 @@ list_02 = list_01 * 2
 print(list_02)
 print(id(list_02))
 list_03 = [1, 2, 3, 1, 2, 3]
+
+print("-----------*------------")
 print(id(list_03))
 print(list_03 is not list_01 * 2)
 
 tuple_01 = (1, 2, 3)
 print(tuple_01 * 2)
 
-dict_01 = {'name' : 'song'}
+dict_01 = {'name': 'song'}
 # print(dict_01 * 2)
 
 gb = 1
