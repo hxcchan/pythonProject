@@ -13,4 +13,3 @@ if __name__ == '__main__':
     print(is_sleep)
     print(dog_exists)
     print(a, b, c)
-    
